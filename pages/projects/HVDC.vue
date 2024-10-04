@@ -4,15 +4,7 @@
         <p>Salzbergen in Germany and Villeurbanne in France</p>
     </div>
     <div>
-        <TresCanvas clear-color="#82DBC5" window-size>
-            <TresPerspectiveCamera :position="[3, 3, 3]" :look-at="[0, 0, 0]" />
-            <TresMesh ref="cubeRef" :position="[0, 0, 0]">
-                <TresBoxGeometry />
-                <TresMeshNormalMaterial />
-            </TresMesh>
-            <TresAmbientLight :intensity="1" />
-            <TresAxesHelper />
-        </TresCanvas>
+        <HvdcModel />
     </div>
 </template>
 

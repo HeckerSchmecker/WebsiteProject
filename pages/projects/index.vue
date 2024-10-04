@@ -7,7 +7,7 @@
             </NuxtLink>
         </li>
         <li>
-            <NuxtLink to="/projects/drone-slalom">
+            <NuxtLink to="/projects/Drone">
                 Drone Slalom Project at University
             </NuxtLink>
         </li>

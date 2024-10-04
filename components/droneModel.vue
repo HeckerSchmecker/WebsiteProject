@@ -1,9 +1,5 @@
 <template>
     <div>
-        <h2>Drone slalom</h2>
-        <p>University of Bayreuth 2022</p>
-    </div>
-    <div>
         <TresCanvas clear-color="#82DBC5" window-size>
             <TresPerspectiveCamera :args="[75, 1, 0.1, 1000]" :position="[3, 1, 4]" :look-at="[0, 0, 0]" />
             <OrbitControls :damping-factor="0.1" :enable-damping="true" />
@@ -11,6 +7,7 @@
             <TresAmbientLight :intensity="1" />
         </TresCanvas>
     </div>
+    <h3>Replace this with Drone Model</h3>
 </template>
 
 <script setup>
